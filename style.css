@@ -35,6 +35,11 @@ li {
 
 }
 
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 body {
   background-color: var(--white02);
   direction: ltr;
@@ -139,7 +144,6 @@ section button[type="button"]:hover {
 section p, section p a {
   color: #000;
   font-size: 1.6rem;
-  /* font-weight: lighter; */
   margin-top: 30px;
   text-align: center;
 }
@@ -166,7 +170,6 @@ footer .language {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-
   color: #737373;
 }
 
